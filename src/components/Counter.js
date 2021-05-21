@@ -31,7 +31,7 @@ const Counter = () => {
 
     return (
         <Row>
-            <Counter><div>{counterData}</div></Counter>
+            <Counter>{counterData}</Counter>
             <ButtonDiv>
                 <Btn onClick={() =>
                     reduxStore.dispatch(increment(counterData))}>
